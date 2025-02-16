@@ -91,8 +91,7 @@ function DisplayMessage(guessedNum,m) {
      }
      else{
         if(guessedNum == randomNumber ){
-            //ReplyOfSubmit.innerHTML = 'Congrats, You guessed it right. Random Number is '+ randomNumber;
-            ReplyOfSubmit.innerHTML = 'Thanku for being my friend PAYAL:)';
+            ReplyOfSubmit.innerHTML = 'Congrats, You guessed it right. Random Number is '+ randomNumber;
             playGame = false;
         }
         else if(guessedNum > randomNumber ){
